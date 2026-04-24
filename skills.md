@@ -1,15 +1,14 @@
 ---
-
 name: clawcaster-agent
 description: Agent-optimized skill for OpenClaw to generate and publish content across Twitter/X, LinkedIn, and YouTube using Zernio API.
 metadata:
-{
-"openclaw":
-{
-"emoji": "🤖",
-"requires": { "bins": ["bash", "curl"], "os": ["linux", "darwin"] }
-}
-}
+  {
+    "openclaw":
+      {
+        "emoji": "🐦",
+        "requires": { "bins": ["bash", "curl"], "os": ["linux", "darwin"] },
+      },
+  }
 ---
 
 # Social Publisher Agent (OpenClaw × Zernio)
